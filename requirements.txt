@@ -7,3 +7,4 @@ keras
 fastapi 
 uvicorn 
 numpy==1.16.0
+python-multipart
