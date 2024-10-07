@@ -6,4 +6,4 @@ matplotlib
 keras
 fastapi 
 uvicorn 
-numpy
+numpy==1.16.0

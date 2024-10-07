@@ -21,7 +21,7 @@ def preprocesar_imagen(imagen: Image.Image):
 
 @app.post("/predict/")
 async def predict(file: UploadFile = File(...)):
-    contenido = await file.read()
+    contenido = await file.read
     imagen = Image.open(io.BytesIO(contenido))
 
     x = preprocesar_imagen(imagen)
